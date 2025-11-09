@@ -7,6 +7,11 @@
     "strict": true,
     "esModuleInterop": true
   },
+  "watchOptions": {
+    "watchFile": "fixedPollingInterval",
+    "watchDirectory": "fixedPollingInterval",
+    "synchronousWatchDirectory": true
+  },
   "include": ["src/ts/**/*.ts"],
   "exclude": ["src/js/**/*", "node_modules"]
 }

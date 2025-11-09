@@ -5,6 +5,7 @@ services:
       dockerfile: docker-config/typescript/Dockerfile
     volumes:
       - ./src:/app/src
+      - ./tsconfig.json:/app/tsconfig.json:ro
       - /app/node_modules
     ports:
       - "3000:3000" # 必要に応じてポート番号を変更

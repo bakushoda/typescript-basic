@@ -1,0 +1,2 @@
+"use strict";
+console.log("TypeScript Docker環境テスト！！");
